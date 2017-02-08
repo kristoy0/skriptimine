@@ -25,3 +25,14 @@ git remove add skriptimine https://github.com/kristoy0/skriptimine.git
 b)git remote kontroll
 
 git remove -v
+
+põhikasutamine:
+
+a) pane fail jalgimisele:
+git add failinimi
+
+b)lisa kirjeldus muudatuste kohta
+git commit -m "kirjeldus"
+
+c) lisa kaugrepositooriumi
+git push -uf skriptimine master
