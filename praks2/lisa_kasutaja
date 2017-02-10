@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "Sisesta soovitud kasutajanimi: "
-read kasutaja
+kasutaja=$1
 
 useradd -m "$kasutaja" -s /bin/bash
