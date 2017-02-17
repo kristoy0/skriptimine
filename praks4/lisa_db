@@ -10,7 +10,7 @@ mysql -e "FLUSH PRIVILEGES;"
 
 touch /home/$kasutaja/.my.cnf
 echo "[client]
-user = root
-password = qwerty
+user = $kasutaja
+password = $parool
 host = localhost" > /home/$kasutaja/.my.cnf
 
